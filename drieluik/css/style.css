@@ -1,0 +1,28 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+    gap: 5vw;
+    width: 94vw;
+    margin: 2vh auto;
+    padding: 4vw;
+    border: 2px solid black;
+}
+section {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 70vh;
+    color: white;
+    font-size: 5vh;
+    font-weight: bold;
+}
+.vak1 {
+    background-color: darkturquoise;
+}
+.vak2 {
+    background-color: darkviolet;
+}
+.vak3 {
+    background-color: deepskyblue;
+}
